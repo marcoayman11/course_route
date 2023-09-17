@@ -12,7 +12,7 @@ class Text_Button extends StatelessWidget {
                 Navigator.of(context).pushReplacementNamed(clickbutton);
               },
                 child:Text(text,style:
-                TextStyle(color: Colors.white,
+                TextStyle(color: Colors.red,
                   fontSize: 20
                 ),),
                 style: ButtonStyle(
