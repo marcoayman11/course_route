@@ -12,8 +12,8 @@ class Text_Button extends StatelessWidget {
                 Navigator.of(context).pushReplacementNamed(clickbutton);
               },
                 child:Text(text,style:
-                TextStyle(color: Colors.red,
-                  fontSize: 25
+                TextStyle(color: Colors.white,
+                  fontSize: 30
                 ),),
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all( Color.fromRGBO(16, 32, 190, 1.0)),
