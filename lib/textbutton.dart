@@ -13,7 +13,7 @@ class Text_Button extends StatelessWidget {
               },
                 child:Text(text,style:
                 TextStyle(color: Colors.red,
-                  fontSize: 20
+                  fontSize: 25
                 ),),
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all( Color.fromRGBO(16, 32, 190, 1.0)),
